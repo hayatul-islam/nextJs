@@ -1,10 +1,12 @@
+import User from "../../components/user";
+
 export default function Users({ users }) {
   return (
     <>
       <h1>Users</h1>
       {users?.map((user) => (
         <div key={user?.id}>
-          <p>{user?.name}</p>
+          <User user={user} />
         </div>
       ))}
     </>
