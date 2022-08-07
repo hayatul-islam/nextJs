@@ -1,4 +1,10 @@
 {
+  "dashboard": {
+    "posts": 5,
+    "likes": 100,
+    "followers": 50,
+    "following": 30
+  },
     "products":[
         {
             "id": 1,
@@ -23,7 +29,7 @@
         {
           "id": 1,
           "title": "News Article 1",
-          "description": "Description 1",
+          "description": "New Description 1",
           "category": "sports"
         },
         {
