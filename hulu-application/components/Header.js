@@ -1,15 +1,13 @@
-import Image from "next/image";
 import React from "react";
+import HeaderItem from "./HeaderItem";
 
 export default function Header() {
   return (
     <div>
-      <h2>This is header</h2>
-      <Image
-        height="100"
-        weight="200"
-        src="https://image.shutterstock.com/image-vector/photo-graphic-editor-on-computer-600w-1432421069.jpg"
-      />
+      <div>
+        <HeaderItem title="Home" />
+      </div>
+      <img className="h-16" src="https://links.papareact.com/ua6" />
     </div>
   );
 }
